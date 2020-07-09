@@ -20,7 +20,7 @@ let coin = {
         let image = document.createElement('img');
         coin.flip()
         if (this.state === 0) {
-            image.src = "https://upload.wikimedia.org/wikipedia/commons/2/2e/US_One_Cent_Obv.png" 
+            image.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQw8zDm0xXG4usCCx34avUZcWtjWqzKBoh0dA&usqp=CAU" 
             document.body.append(image)
         }
         else {
